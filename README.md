@@ -6,9 +6,6 @@ This project demonstrates multiple linear regression using a real estate dataset
 2. **Extended model** — analyzing `price` using `size`, `year`, and `view`, where `view` is a categorical variable (Sea view / No sea view) encoded as a **dummy variable** (0/1).
 
 The notebook walks through both models side by side to show how adding a well-chosen categorical predictor improves model fit.
-
-> **Note on scope:** This is an **explanatory / inferential regression analysis**, not a validated predictive model. The goal is to understand and quantify the relationship between `price` and its predictors (coefficients, significance, R²) using the full dataset. There is no train/test split or out-of-sample evaluation, so the model's ability to predict prices for new, unseen properties has not been tested here.
-
 ## Files
 
 | File | Description |
